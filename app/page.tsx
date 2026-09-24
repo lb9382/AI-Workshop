@@ -10,6 +10,15 @@ export default function Home() {
 
       <main>
         <section className="section">
+          <h2>This semester</h2>
+          <ul className="list">
+            <li>SLS 480E</li>
+            <li>My AIR project</li>
+            <li>Learning to surf</li>
+          </ul>
+        </section>
+
+        <section className="section">
           <h2>About</h2>
           <p>
             Lilli-Lyn is a senior at UH Manoa studying second language studies, with a
@@ -20,21 +29,11 @@ export default function Home() {
             theory to real classrooms and communities.
           </p>
         </section>
-
-        <section className="section">
-          <h2>This semester</h2>
-          {/* Placeholder items below — Lilli-Lyn will replace these with her actual coursework, project, and activities later. */}
-          <ul className="list">
-            <li>Taking a course in second language acquisition theory</li>
-            <li>Working on a research project about bilingual education in Hawaii schools</li>
-            <li>Volunteering with a campus language exchange program</li>
-          </ul>
-        </section>
       </main>
 
       <footer className="footer">
         <p>
-          Lilli-Lyn &copy; {year}
+          Lilli-Lyn &copy; {year} · Built with Claude Code
         </p>
       </footer>
     </>
