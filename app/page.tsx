@@ -1,3 +1,5 @@
+import AuthPanel from "./auth-panel";
+
 export default function Home() {
   const year = new Date().getFullYear();
 
@@ -9,6 +11,8 @@ export default function Home() {
       </header>
 
       <main>
+        <AuthPanel />
+
         <section className="section">
           <h2>This semester</h2>
           <ul className="list">
